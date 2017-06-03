@@ -107,4 +107,43 @@
 
 .imagen{
 	padding: 40px;
+	cursor: pointer;
+}
+
+/**MODAL**/
+
+#imgModal{
+	background-color: rgb(129, 206, 140);
+	width:100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+#imgModal .modalcito{
+	padding-top: 7% ;
+}
+
+.modalcito p{
+	display: none;
+}
+
+#imgModal .cerrar{
+	position: absolute;
+	color: white;
+	top: 4%;
+	right: 7%;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+.claseModal{
+	display: none;
+}
+
+#imgModal .modalcito img{
+	width: 45%;
+	border: 10px solid white;
+
 }
